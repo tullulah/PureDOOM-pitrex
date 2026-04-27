@@ -257,6 +257,8 @@ int main(int argc, char** argv)
     midi_timer = SDL_AddTimer(0, tick_midi, 0);
 
     // Initialize doom
+    doom_set_getenv(getenv);
+    doom_set_print(puts);
     doom_init(argc, argv, DOOM_FLAG_MENU_DARKEN_BG);
 
     //-----------------------------------------------------------------------

@@ -9478,10 +9478,12 @@ void D_PageTicker(void)
 //
 // D_PageDrawer
 //
+#ifndef DOOM_CUSTOM_PAGE_DRAWER
 void D_PageDrawer(void)
 {
     V_DrawPatch(0, 0, 0, W_CacheLumpName(pagename, PU_CACHE));
 }
+#endif /* DOOM_CUSTOM_PAGE_DRAWER */
 
 
 //
@@ -13751,7 +13753,11 @@ doom_boolean HUlib_delCharFromTextLine(hu_textline_t* t)
 }
 
 
+#ifdef DOOM_CUSTOM_WALL_RANGE
+void HUlib_drawTextLine_doom(hu_textline_t* l, doom_boolean drawcursor)
+#else
 void HUlib_drawTextLine(hu_textline_t* l, doom_boolean drawcursor)
+#endif
 {
     int i;
     int w;
@@ -23247,6 +23253,7 @@ void M_StartControlPanel(void)
 // Called after the view has been rendered,
 // but before it has been blitted.
 //
+#ifndef DOOM_CUSTOM_M_DRAWER
 void M_Drawer(void)
 {
     static short x;
@@ -23336,6 +23343,7 @@ void M_Drawer(void)
                       W_CacheLumpName(skullName[whichSkull], PU_CACHE));
 
 }
+#endif /* DOOM_CUSTOM_M_DRAWER */
 
 
 //
@@ -39622,7 +39630,11 @@ void R_RenderSegLoop(void)
 // A wall segment will be drawn
 //  between start and stop pixels (inclusive).
 //
-void R_StoreWallRange(int start, int stop)
+#ifdef DOOM_CUSTOM_WALL_RANGE
+void R_StoreWallRange_doom(int start, int stop)
+#else
+__attribute__((weak)) void R_StoreWallRange(int start, int stop)
+#endif
 {
     fixed_t hyp;
     fixed_t sineval;
@@ -41904,7 +41916,11 @@ void STlib_initNum(st_number_t* n, int x, int y, patch_t** pl, int* num, doom_bo
 //  based on differences from the old number.
 // Note: worth the trouble?
 //
+#ifdef DOOM_CUSTOM_WALL_RANGE
+void STlib_drawNum_doom(st_number_t* n, doom_boolean refresh)
+#else
 void STlib_drawNum(st_number_t* n, doom_boolean refresh)
+#endif
 {
     int numdigits = n->width;
     int num = *n->num;
@@ -41960,6 +41976,11 @@ void STlib_drawNum(st_number_t* n, doom_boolean refresh)
         V_DrawPatch(x - 8, n->y, STLIB_FG, sttminus);
 }
 
+/* When DOOM_CUSTOM_WALL_RANGE is active, STlib_drawNum is provided
+ * by the custom renderer rather than the implementation above. */
+#ifdef DOOM_CUSTOM_WALL_RANGE
+void STlib_drawNum(st_number_t* n, doom_boolean refresh);
+#endif
 //
 void STlib_updateNum(st_number_t* n, doom_boolean refresh)
 {
@@ -42976,6 +42997,7 @@ void ST_diffDraw(void)
 }
 
 
+#ifndef DOOM_CUSTOM_ST_DRAWER
 void ST_Drawer(doom_boolean fullscreen, doom_boolean refresh)
 {
     st_statusbaron = (!fullscreen) || automapactive;
@@ -42996,6 +43018,7 @@ void ST_Drawer(doom_boolean fullscreen, doom_boolean refresh)
         else ST_diffDraw();
     }
 }
+#endif /* DOOM_CUSTOM_ST_DRAWER */
 
 
 void ST_loadGraphics(void)
@@ -45586,7 +45609,11 @@ void V_CopyRect(int srcx,
 // V_DrawPatch
 // Masks a column based masked pic to the screen. 
 //
+#ifdef DOOM_CUSTOM_WALL_RANGE
+void V_DrawPatch_doom(int x, int y, int scrn, patch_t* patch)
+#else
 void V_DrawPatch(int x, int y, int scrn, patch_t* patch)
+#endif
 {
     int count;
     int col;
