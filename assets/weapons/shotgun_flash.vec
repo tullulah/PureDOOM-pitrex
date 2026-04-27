@@ -1,0 +1,115 @@
+{
+  "version": "1.0",
+  "name": "shotgun_flash",
+  "canvas": {
+    "width": 256,
+    "height": 256,
+    "origin": "center"
+  },
+  "layers": [
+    {
+      "name": "flash",
+      "visible": true,
+      "paths": [
+        {
+          "name": "ring",
+          "intensity": 127,
+          "closed": true,
+          "points": [
+            {
+              "x": 0,
+              "y": -26
+            },
+            {
+              "x": 12,
+              "y": -38
+            },
+            {
+              "x": 0,
+              "y": -50
+            },
+            {
+              "x": -12,
+              "y": -38
+            }
+          ]
+        },
+        {
+          "name": "ray_up",
+          "intensity": 127,
+          "closed": false,
+          "points": [
+            {
+              "x": 0,
+              "y": -26
+            },
+            {
+              "x": 0,
+              "y": -14
+            }
+          ]
+        },
+        {
+          "name": "ray_upleft",
+          "intensity": 127,
+          "closed": false,
+          "points": [
+            {
+              "x": -12,
+              "y": -26
+            },
+            {
+              "x": -20,
+              "y": -18
+            }
+          ]
+        },
+        {
+          "name": "ray_upright",
+          "intensity": 127,
+          "closed": false,
+          "points": [
+            {
+              "x": 12,
+              "y": -26
+            },
+            {
+              "x": 20,
+              "y": -18
+            }
+          ]
+        },
+        {
+          "name": "ray_left",
+          "intensity": 80,
+          "closed": false,
+          "points": [
+            {
+              "x": -12,
+              "y": -38
+            },
+            {
+              "x": -22,
+              "y": -38
+            }
+          ]
+        },
+        {
+          "name": "ray_right",
+          "intensity": 80,
+          "closed": false,
+          "points": [
+            {
+              "x": 12,
+              "y": -38
+            },
+            {
+              "x": 22,
+              "y": -38
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "version": "1.0",
+  "name": "percent",
+  "canvas": {
+    "width": 254,
+    "height": 254
+  },
+  "layers": [
+    {
+      "name": "layer0",
+      "visible": true,
+      "paths": [
+        {
+          "name": "s0",
+          "intensity": 127,
+          "closed": false,
+          "points": [
+            {
+              "x": -3,
+              "y": 0
+            },
+            {
+              "x": -3,
+              "y": 3
+            }
+          ]
+        },
+        {
+          "name": "s1",
+          "intensity": 127,
+          "closed": false,
+          "points": [
+            {
+              "x": -3,
+              "y": 3
+            },
+            {
+              "x": 0,
+              "y": 3
+            }
+          ]
+        },
+        {
+          "name": "s2",
+          "intensity": 127,
+          "closed": false,
+          "points": [
+            {
+              "x": 0,
+              "y": 3
+            },
+            {
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        {
+          "name": "s3",
+          "intensity": 127,
+          "closed": false,
+          "points": [
+            {
+              "x": 0,
+              "y": 0
+            },
+            {
+              "x": -3,
+              "y": 0
+            }
+          ]
+        },
+        {
+          "name": "s4",
+          "intensity": 127,
+          "closed": false,
+          "points": [
+            {
+              "x": 0,
+              "y": 0
+            },
+            {
+              "x": 3,
+              "y": 0
+            }
+          ]
+        },
+        {
+          "name": "s5",
+          "intensity": 127,
+          "closed": false,
+          "points": [
+            {
+              "x": 3,
+              "y": 0
+            },
+            {
+              "x": 3,
+              "y": -3
+            }
+          ]
+        },
+        {
+          "name": "s6",
+          "intensity": 127,
+          "closed": false,
+          "points": [
+            {
+              "x": 3,
+              "y": -3
+            },
+            {
+              "x": 0,
+              "y": -3
+            }
+          ]
+        },
+        {
+          "name": "s7",
+          "intensity": 127,
+          "closed": false,
+          "points": [
+            {
+              "x": 0,
+              "y": -3
+            },
+            {
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        {
+          "name": "s8",
+          "intensity": 127,
+          "closed": false,
+          "points": [
+            {
+              "x": 3,
+              "y": 3
+            },
+            {
+              "x": -3,
+              "y": -3
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

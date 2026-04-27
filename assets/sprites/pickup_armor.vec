@@ -1,0 +1,107 @@
+{
+  "version": "1.0",
+  "name": "pickup_armor",
+  "canvas": {
+    "width": 256,
+    "height": 256,
+    "origin": "center"
+  },
+  "layers": [
+    {
+      "name": "layer0",
+      "visible": true,
+      "paths": [
+        {
+          "name": "s0",
+          "intensity": 127,
+          "closed": false,
+          "points": [
+            {
+              "x": -50,
+              "y": 30
+            },
+            {
+              "x": 50,
+              "y": 30
+            }
+          ]
+        },
+        {
+          "name": "s1",
+          "intensity": 127,
+          "closed": false,
+          "points": [
+            {
+              "x": 50,
+              "y": 30
+            },
+            {
+              "x": 35,
+              "y": -22
+            }
+          ]
+        },
+        {
+          "name": "s2",
+          "intensity": 127,
+          "closed": false,
+          "points": [
+            {
+              "x": 35,
+              "y": -22
+            },
+            {
+              "x": 0,
+              "y": -52
+            }
+          ]
+        },
+        {
+          "name": "s3",
+          "intensity": 127,
+          "closed": false,
+          "points": [
+            {
+              "x": 0,
+              "y": -52
+            },
+            {
+              "x": -35,
+              "y": -22
+            }
+          ]
+        },
+        {
+          "name": "s4",
+          "intensity": 127,
+          "closed": false,
+          "points": [
+            {
+              "x": -35,
+              "y": -22
+            },
+            {
+              "x": -50,
+              "y": 30
+            }
+          ]
+        },
+        {
+          "name": "s5",
+          "intensity": 127,
+          "closed": false,
+          "points": [
+            {
+              "x": -25,
+              "y": 5
+            },
+            {
+              "x": 25,
+              "y": 5
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

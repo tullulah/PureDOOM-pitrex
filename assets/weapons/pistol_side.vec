@@ -1,0 +1,153 @@
+{
+  "version": "1.0",
+  "name": "pistol_side",
+  "canvas": {"width": 256, "height": 256, "origin": "center"},
+  "layers": [
+    {
+      "name": "barrel",
+      "visible": true,
+      "paths": [
+        {
+          "name": "barrel",
+          "intensity": 127,
+          "closed": true,
+          "points": [
+            {"x": -60, "y": -70},
+            {"x": -5,  "y": -70},
+            {"x": -5,  "y": -77},
+            {"x": -60, "y": -77}
+          ]
+        },
+        {
+          "name": "front_sight",
+          "intensity": 127,
+          "closed": false,
+          "points": [
+            {"x": -60, "y": -77},
+            {"x": -60, "y": -81}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "slide",
+      "visible": true,
+      "paths": [
+        {
+          "name": "slide_top",
+          "intensity": 127,
+          "closed": false,
+          "points": [
+            {"x": -10, "y": -65},
+            {"x":  55, "y": -65}
+          ]
+        },
+        {
+          "name": "slide_outline",
+          "intensity": 127,
+          "closed": true,
+          "points": [
+            {"x": -10, "y": -65},
+            {"x": -10, "y": -83},
+            {"x":  55, "y": -83},
+            {"x":  55, "y": -65}
+          ]
+        },
+        {
+          "name": "ejection_port",
+          "intensity": 100,
+          "closed": true,
+          "points": [
+            {"x":  5,  "y": -66},
+            {"x":  5,  "y": -77},
+            {"x":  38, "y": -77},
+            {"x":  38, "y": -66}
+          ]
+        },
+        {
+          "name": "rear_sight",
+          "intensity": 127,
+          "closed": false,
+          "points": [
+            {"x": 50, "y": -65},
+            {"x": 50, "y": -61},
+            {"x": 55, "y": -61},
+            {"x": 55, "y": -65}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "frame",
+      "visible": true,
+      "paths": [
+        {
+          "name": "frame_body",
+          "intensity": 127,
+          "closed": true,
+          "points": [
+            {"x":  0,  "y": -83},
+            {"x": 62,  "y": -83},
+            {"x": 62,  "y": -93},
+            {"x":  0,  "y": -93}
+          ]
+        },
+        {
+          "name": "trigger_guard",
+          "intensity": 127,
+          "closed": false,
+          "points": [
+            {"x": 10, "y": -93},
+            {"x": 10, "y": -103},
+            {"x": 38, "y": -103},
+            {"x": 38, "y": -93}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "grip",
+      "visible": true,
+      "paths": [
+        {
+          "name": "grip_outline",
+          "intensity": 127,
+          "closed": true,
+          "points": [
+            {"x": 38, "y": -93},
+            {"x": 62, "y": -93},
+            {"x": 68, "y": -115},
+            {"x": 44, "y": -115}
+          ]
+        },
+        {
+          "name": "grip_line1",
+          "intensity": 80,
+          "closed": false,
+          "points": [
+            {"x": 40, "y": -98},
+            {"x": 63, "y": -98}
+          ]
+        },
+        {
+          "name": "grip_line2",
+          "intensity": 80,
+          "closed": false,
+          "points": [
+            {"x": 42, "y": -104},
+            {"x": 65, "y": -104}
+          ]
+        },
+        {
+          "name": "grip_line3",
+          "intensity": 80,
+          "closed": false,
+          "points": [
+            {"x": 44, "y": -110},
+            {"x": 67, "y": -110}
+          ]
+        }
+      ]
+    }
+  ]
+}

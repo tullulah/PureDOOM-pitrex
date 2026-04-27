@@ -1,0 +1,290 @@
+{
+  "version": "1.0",
+  "name": "shotgun",
+  "canvas": {
+    "width": 256,
+    "height": 256,
+    "origin": "center"
+  },
+  "layers": [
+    {
+      "name": "barrel",
+      "visible": true,
+      "paths": [
+        {
+          "name": "barrel_outer",
+          "intensity": 127,
+          "closed": true,
+          "points": [
+            {
+              "x": -10,
+              "y": -50
+            },
+            {
+              "x": 10,
+              "y": -50
+            },
+            {
+              "x": 10,
+              "y": -100
+            },
+            {
+              "x": -10,
+              "y": -100
+            }
+          ]
+        },
+        {
+          "name": "barrel_inner",
+          "intensity": 80,
+          "closed": false,
+          "points": [
+            {
+              "x": -6,
+              "y": -52
+            },
+            {
+              "x": 6,
+              "y": -52
+            },
+            {
+              "x": 6,
+              "y": -98
+            },
+            {
+              "x": -6,
+              "y": -98
+            },
+            {
+              "x": -6,
+              "y": -52
+            }
+          ]
+        },
+        {
+          "name": "front_sight",
+          "intensity": 127,
+          "closed": false,
+          "points": [
+            {
+              "x": 0,
+              "y": -100
+            },
+            {
+              "x": 0,
+              "y": -107
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "pump",
+      "visible": true,
+      "paths": [
+        {
+          "name": "pump_body",
+          "intensity": 127,
+          "closed": true,
+          "points": [
+            {
+              "x": -14,
+              "y": -74
+            },
+            {
+              "x": 14,
+              "y": -74
+            },
+            {
+              "x": 14,
+              "y": -88
+            },
+            {
+              "x": -14,
+              "y": -88
+            }
+          ]
+        },
+        {
+          "name": "pump_rail_l",
+          "intensity": 80,
+          "closed": false,
+          "points": [
+            {
+              "x": -10,
+              "y": -74
+            },
+            {
+              "x": -10,
+              "y": -88
+            }
+          ]
+        },
+        {
+          "name": "pump_rail_r",
+          "intensity": 80,
+          "closed": false,
+          "points": [
+            {
+              "x": 10,
+              "y": -74
+            },
+            {
+              "x": 10,
+              "y": -88
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "receiver",
+      "visible": true,
+      "paths": [
+        {
+          "name": "receiver_body",
+          "intensity": 127,
+          "closed": true,
+          "points": [
+            {
+              "x": -18,
+              "y": -88
+            },
+            {
+              "x": 18,
+              "y": -88
+            },
+            {
+              "x": 18,
+              "y": -104
+            },
+            {
+              "x": -18,
+              "y": -104
+            }
+          ]
+        },
+        {
+          "name": "ejection_port",
+          "intensity": 100,
+          "closed": true,
+          "points": [
+            {
+              "x": 8,
+              "y": -89
+            },
+            {
+              "x": 16,
+              "y": -89
+            },
+            {
+              "x": 16,
+              "y": -102
+            },
+            {
+              "x": 8,
+              "y": -102
+            }
+          ]
+        },
+        {
+          "name": "rear_sight",
+          "intensity": 127,
+          "closed": false,
+          "points": [
+            {
+              "x": -4,
+              "y": -88
+            },
+            {
+              "x": 4,
+              "y": -88
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "grip",
+      "visible": true,
+      "paths": [
+        {
+          "name": "trigger_guard",
+          "intensity": 127,
+          "closed": false,
+          "points": [
+            {
+              "x": -8,
+              "y": -104
+            },
+            {
+              "x": -8,
+              "y": -118
+            },
+            {
+              "x": 8,
+              "y": -118
+            },
+            {
+              "x": 8,
+              "y": -104
+            }
+          ]
+        },
+        {
+          "name": "grip_body",
+          "intensity": 127,
+          "closed": true,
+          "points": [
+            {
+              "x": -14,
+              "y": -104
+            },
+            {
+              "x": 14,
+              "y": -104
+            },
+            {
+              "x": 12,
+              "y": -127
+            },
+            {
+              "x": -12,
+              "y": -127
+            }
+          ]
+        },
+        {
+          "name": "grip_line1",
+          "intensity": 80,
+          "closed": false,
+          "points": [
+            {
+              "x": -13,
+              "y": -112
+            },
+            {
+              "x": 13,
+              "y": -112
+            }
+          ]
+        },
+        {
+          "name": "grip_line2",
+          "intensity": 80,
+          "closed": false,
+          "points": [
+            {
+              "x": -13,
+              "y": -120
+            },
+            {
+              "x": 13,
+              "y": -120
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

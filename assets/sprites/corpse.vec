@@ -1,0 +1,95 @@
+{
+  "version": "1.0",
+  "name": "corpse",
+  "canvas": {
+    "width": 256,
+    "height": 256,
+    "origin": "center"
+  },
+  "layers": [
+    {
+      "name": "layer0",
+      "visible": true,
+      "paths": [
+        {
+          "name": "head0",
+          "intensity": 127,
+          "closed": false,
+          "points": [{"x": -50, "y": 20}, {"x": -38, "y": 10}]
+        },
+        {
+          "name": "head1",
+          "intensity": 127,
+          "closed": false,
+          "points": [{"x": -38, "y": 10}, {"x": -50, "y": 0}]
+        },
+        {
+          "name": "head2",
+          "intensity": 127,
+          "closed": false,
+          "points": [{"x": -50, "y": 0}, {"x": -62, "y": 10}]
+        },
+        {
+          "name": "head3",
+          "intensity": 127,
+          "closed": false,
+          "points": [{"x": -62, "y": 10}, {"x": -50, "y": 20}]
+        },
+        {
+          "name": "neck",
+          "intensity": 127,
+          "closed": false,
+          "points": [{"x": -38, "y": 10}, {"x": -28, "y": 12}]
+        },
+        {
+          "name": "torso_top",
+          "intensity": 127,
+          "closed": false,
+          "points": [{"x": -28, "y": 18}, {"x": 20, "y": 16}]
+        },
+        {
+          "name": "torso_bottom",
+          "intensity": 127,
+          "closed": false,
+          "points": [{"x": -28, "y": 4}, {"x": 20, "y": 6}]
+        },
+        {
+          "name": "torso_left",
+          "intensity": 127,
+          "closed": false,
+          "points": [{"x": -28, "y": 4}, {"x": -28, "y": 18}]
+        },
+        {
+          "name": "torso_right",
+          "intensity": 127,
+          "closed": false,
+          "points": [{"x": 20, "y": 6}, {"x": 20, "y": 16}]
+        },
+        {
+          "name": "arm_up",
+          "intensity": 127,
+          "closed": false,
+          "points": [{"x": -15, "y": 18}, {"x": -20, "y": 36}]
+        },
+        {
+          "name": "arm_down",
+          "intensity": 127,
+          "closed": false,
+          "points": [{"x": -15, "y": 4}, {"x": -20, "y": -14}]
+        },
+        {
+          "name": "leg_up",
+          "intensity": 127,
+          "closed": false,
+          "points": [{"x": 20, "y": 16}, {"x": 42, "y": 26}]
+        },
+        {
+          "name": "leg_down",
+          "intensity": 127,
+          "closed": false,
+          "points": [{"x": 20, "y": 6}, {"x": 42, "y": -4}]
+        }
+      ]
+    }
+  ]
+}

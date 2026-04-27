@@ -1,0 +1,14 @@
+{"version":"1.0","name":"key_card","canvas":{"width":256,"height":256,"origin":"center"},"layers":[{"name":"default","visible":true,"paths":[
+  {"name":"body","intensity":127,"closed":true,"points":[
+    {"x":-9,"y":-4},{"x":9,"y":-4},{"x":9,"y":4},{"x":-9,"y":4}
+  ]},
+  {"name":"grip_indent","intensity":127,"closed":true,"points":[
+    {"x":-9,"y":-2},{"x":-6,"y":-2},{"x":-6,"y":2},{"x":-9,"y":2}
+  ]},
+  {"name":"notch","intensity":100,"closed":true,"points":[
+    {"x":4,"y":-4},{"x":9,"y":-4},{"x":9,"y":-1},{"x":4,"y":-1}
+  ]},
+  {"name":"detail","intensity":80,"closed":false,"points":[
+    {"x":-6,"y":-4},{"x":-6,"y":4}
+  ]}
+]}]}

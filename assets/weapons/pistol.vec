@@ -1,0 +1,233 @@
+{
+  "version": "1.0",
+  "name": "pistol",
+  "canvas": {
+    "width": 256,
+    "height": 256,
+    "origin": "center"
+  },
+  "layers": [
+    {
+      "name": "barrel",
+      "visible": true,
+      "paths": [
+        {
+          "name": "barrel_tube",
+          "intensity": 127,
+          "closed": true,
+          "points": [
+            {
+              "x": -6,
+              "y": -55
+            },
+            {
+              "x": 6,
+              "y": -55
+            },
+            {
+              "x": 6,
+              "y": -95
+            },
+            {
+              "x": -6,
+              "y": -95
+            }
+          ]
+        },
+        {
+          "name": "front_sight",
+          "intensity": 127,
+          "closed": false,
+          "points": [
+            {
+              "x": 0,
+              "y": -95
+            },
+            {
+              "x": 0,
+              "y": -100
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "slide",
+      "visible": true,
+      "paths": [
+        {
+          "name": "slide_body",
+          "intensity": 127,
+          "closed": true,
+          "points": [
+            {
+              "x": -13,
+              "y": -55
+            },
+            {
+              "x": 13,
+              "y": -55
+            },
+            {
+              "x": 13,
+              "y": -88
+            },
+            {
+              "x": -13,
+              "y": -88
+            }
+          ]
+        },
+        {
+          "name": "ejection_port",
+          "intensity": 100,
+          "closed": true,
+          "points": [
+            {
+              "x": 7,
+              "y": -60
+            },
+            {
+              "x": 12,
+              "y": -60
+            },
+            {
+              "x": 12,
+              "y": -82
+            },
+            {
+              "x": 7,
+              "y": -82
+            }
+          ]
+        },
+        {
+          "name": "rear_sight",
+          "intensity": 127,
+          "closed": false,
+          "points": [
+            {
+              "x": -4,
+              "y": -55
+            },
+            {
+              "x": 4,
+              "y": -55
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "frame",
+      "visible": true,
+      "paths": [
+        {
+          "name": "frame_body",
+          "intensity": 127,
+          "closed": true,
+          "points": [
+            {
+              "x": -15,
+              "y": -38
+            },
+            {
+              "x": 15,
+              "y": -38
+            },
+            {
+              "x": 15,
+              "y": -57
+            },
+            {
+              "x": -15,
+              "y": -57
+            }
+          ]
+        },
+        {
+          "name": "trigger_guard",
+          "intensity": 127,
+          "closed": false,
+          "points": [
+            {
+              "x": -9,
+              "y": -38
+            },
+            {
+              "x": -9,
+              "y": -28
+            },
+            {
+              "x": 9,
+              "y": -28
+            },
+            {
+              "x": 9,
+              "y": -38
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "grip",
+      "visible": true,
+      "paths": [
+        {
+          "name": "grip_outline",
+          "intensity": 127,
+          "closed": true,
+          "points": [
+            {
+              "x": -12,
+              "y": -10
+            },
+            {
+              "x": 12,
+              "y": -10
+            },
+            {
+              "x": 10,
+              "y": -30
+            },
+            {
+              "x": -10,
+              "y": -30
+            }
+          ]
+        },
+        {
+          "name": "grip_line1",
+          "intensity": 80,
+          "closed": false,
+          "points": [
+            {
+              "x": -11,
+              "y": -16
+            },
+            {
+              "x": 11,
+              "y": -16
+            }
+          ]
+        },
+        {
+          "name": "grip_line2",
+          "intensity": 80,
+          "closed": false,
+          "points": [
+            {
+              "x": -11,
+              "y": -23
+            },
+            {
+              "x": 11,
+              "y": -23
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

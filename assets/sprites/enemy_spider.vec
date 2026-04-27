@@ -1,0 +1,257 @@
+{
+  "version": "1.0",
+  "name": "enemy_spider",
+  "canvas": {
+    "width": 256,
+    "height": 256,
+    "origin": "center"
+  },
+  "layers": [
+    {
+      "name": "layer0",
+      "visible": true,
+      "paths": [
+        {
+          "name": "s0",
+          "intensity": 127,
+          "closed": false,
+          "points": [
+            {
+              "x": 0,
+              "y": 35
+            },
+            {
+              "x": 24,
+              "y": 24
+            }
+          ]
+        },
+        {
+          "name": "s1",
+          "intensity": 127,
+          "closed": false,
+          "points": [
+            {
+              "x": 24,
+              "y": 24
+            },
+            {
+              "x": 35,
+              "y": 0
+            }
+          ]
+        },
+        {
+          "name": "s2",
+          "intensity": 127,
+          "closed": false,
+          "points": [
+            {
+              "x": 35,
+              "y": 0
+            },
+            {
+              "x": 24,
+              "y": -24
+            }
+          ]
+        },
+        {
+          "name": "s3",
+          "intensity": 127,
+          "closed": false,
+          "points": [
+            {
+              "x": 24,
+              "y": -24
+            },
+            {
+              "x": 0,
+              "y": -35
+            }
+          ]
+        },
+        {
+          "name": "s4",
+          "intensity": 127,
+          "closed": false,
+          "points": [
+            {
+              "x": 0,
+              "y": -35
+            },
+            {
+              "x": -24,
+              "y": -24
+            }
+          ]
+        },
+        {
+          "name": "s5",
+          "intensity": 127,
+          "closed": false,
+          "points": [
+            {
+              "x": -24,
+              "y": -24
+            },
+            {
+              "x": -35,
+              "y": 0
+            }
+          ]
+        },
+        {
+          "name": "s6",
+          "intensity": 127,
+          "closed": false,
+          "points": [
+            {
+              "x": -35,
+              "y": 0
+            },
+            {
+              "x": -24,
+              "y": 24
+            }
+          ]
+        },
+        {
+          "name": "s7",
+          "intensity": 127,
+          "closed": false,
+          "points": [
+            {
+              "x": -24,
+              "y": 24
+            },
+            {
+              "x": 0,
+              "y": 35
+            }
+          ]
+        },
+        {
+          "name": "s8",
+          "intensity": 127,
+          "closed": false,
+          "points": [
+            {
+              "x": -25,
+              "y": 25
+            },
+            {
+              "x": -50,
+              "y": 12
+            }
+          ]
+        },
+        {
+          "name": "s9",
+          "intensity": 127,
+          "closed": false,
+          "points": [
+            {
+              "x": 25,
+              "y": 25
+            },
+            {
+              "x": 50,
+              "y": 12
+            }
+          ]
+        },
+        {
+          "name": "s10",
+          "intensity": 127,
+          "closed": false,
+          "points": [
+            {
+              "x": -25,
+              "y": -25
+            },
+            {
+              "x": -50,
+              "y": -12
+            }
+          ]
+        },
+        {
+          "name": "s11",
+          "intensity": 127,
+          "closed": false,
+          "points": [
+            {
+              "x": 25,
+              "y": -25
+            },
+            {
+              "x": 50,
+              "y": -12
+            }
+          ]
+        },
+        {
+          "name": "s12",
+          "intensity": 127,
+          "closed": false,
+          "points": [
+            {
+              "x": -50,
+              "y": 12
+            },
+            {
+              "x": -62,
+              "y": 0
+            }
+          ]
+        },
+        {
+          "name": "s13",
+          "intensity": 127,
+          "closed": false,
+          "points": [
+            {
+              "x": 50,
+              "y": 12
+            },
+            {
+              "x": 62,
+              "y": 0
+            }
+          ]
+        },
+        {
+          "name": "s14",
+          "intensity": 127,
+          "closed": false,
+          "points": [
+            {
+              "x": -50,
+              "y": -12
+            },
+            {
+              "x": -62,
+              "y": 0
+            }
+          ]
+        },
+        {
+          "name": "s15",
+          "intensity": 127,
+          "closed": false,
+          "points": [
+            {
+              "x": 50,
+              "y": -12
+            },
+            {
+              "x": 62,
+              "y": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

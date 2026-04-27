@@ -1,0 +1,197 @@
+{
+  "version": "1.0",
+  "name": "enemy_baron",
+  "canvas": {
+    "width": 256,
+    "height": 256,
+    "origin": "center"
+  },
+  "layers": [
+    {
+      "name": "layer0",
+      "visible": true,
+      "paths": [
+        {
+          "name": "s0",
+          "intensity": 127,
+          "closed": false,
+          "points": [
+            {
+              "x": -15,
+              "y": 62
+            },
+            {
+              "x": 15,
+              "y": 62
+            }
+          ]
+        },
+        {
+          "name": "s1",
+          "intensity": 127,
+          "closed": false,
+          "points": [
+            {
+              "x": 15,
+              "y": 62
+            },
+            {
+              "x": 15,
+              "y": 38
+            }
+          ]
+        },
+        {
+          "name": "s2",
+          "intensity": 127,
+          "closed": false,
+          "points": [
+            {
+              "x": 15,
+              "y": 38
+            },
+            {
+              "x": -15,
+              "y": 38
+            }
+          ]
+        },
+        {
+          "name": "s3",
+          "intensity": 127,
+          "closed": false,
+          "points": [
+            {
+              "x": -15,
+              "y": 38
+            },
+            {
+              "x": -15,
+              "y": 62
+            }
+          ]
+        },
+        {
+          "name": "s4",
+          "intensity": 127,
+          "closed": false,
+          "points": [
+            {
+              "x": -15,
+              "y": 62
+            },
+            {
+              "x": -22,
+              "y": 76
+            }
+          ]
+        },
+        {
+          "name": "s5",
+          "intensity": 127,
+          "closed": false,
+          "points": [
+            {
+              "x": 15,
+              "y": 62
+            },
+            {
+              "x": 22,
+              "y": 76
+            }
+          ]
+        },
+        {
+          "name": "s6",
+          "intensity": 127,
+          "closed": false,
+          "points": [
+            {
+              "x": 0,
+              "y": 38
+            },
+            {
+              "x": 0,
+              "y": 15
+            }
+          ]
+        },
+        {
+          "name": "s7",
+          "intensity": 127,
+          "closed": false,
+          "points": [
+            {
+              "x": -35,
+              "y": 24
+            },
+            {
+              "x": 35,
+              "y": 24
+            }
+          ]
+        },
+        {
+          "name": "s8",
+          "intensity": 127,
+          "closed": false,
+          "points": [
+            {
+              "x": -35,
+              "y": 24
+            },
+            {
+              "x": -28,
+              "y": 0
+            }
+          ]
+        },
+        {
+          "name": "s9",
+          "intensity": 127,
+          "closed": false,
+          "points": [
+            {
+              "x": 35,
+              "y": 24
+            },
+            {
+              "x": 28,
+              "y": 0
+            }
+          ]
+        },
+        {
+          "name": "s10",
+          "intensity": 127,
+          "closed": false,
+          "points": [
+            {
+              "x": 0,
+              "y": 12
+            },
+            {
+              "x": -18,
+              "y": -32
+            }
+          ]
+        },
+        {
+          "name": "s11",
+          "intensity": 127,
+          "closed": false,
+          "points": [
+            {
+              "x": 0,
+              "y": 12
+            },
+            {
+              "x": 18,
+              "y": -32
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

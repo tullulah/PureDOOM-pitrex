@@ -1,0 +1,256 @@
+{
+  "version": "1.0",
+  "name": "face_dead",
+  "canvas": {
+    "width": 254,
+    "height": 254
+  },
+  "layers": [
+    {
+      "name": "layer0",
+      "visible": true,
+      "paths": [
+        {
+          "name": "s0",
+          "intensity": 127,
+          "closed": false,
+          "points": [
+            {
+              "x": 0,
+              "y": 9
+            },
+            {
+              "x": 7,
+              "y": 6
+            }
+          ]
+        },
+        {
+          "name": "s1",
+          "intensity": 127,
+          "closed": false,
+          "points": [
+            {
+              "x": 7,
+              "y": 6
+            },
+            {
+              "x": 9,
+              "y": 0
+            }
+          ]
+        },
+        {
+          "name": "s2",
+          "intensity": 127,
+          "closed": false,
+          "points": [
+            {
+              "x": 9,
+              "y": 0
+            },
+            {
+              "x": 7,
+              "y": -6
+            }
+          ]
+        },
+        {
+          "name": "s3",
+          "intensity": 127,
+          "closed": false,
+          "points": [
+            {
+              "x": 7,
+              "y": -6
+            },
+            {
+              "x": 0,
+              "y": -9
+            }
+          ]
+        },
+        {
+          "name": "s4",
+          "intensity": 127,
+          "closed": false,
+          "points": [
+            {
+              "x": 0,
+              "y": -9
+            },
+            {
+              "x": -7,
+              "y": -6
+            }
+          ]
+        },
+        {
+          "name": "s5",
+          "intensity": 127,
+          "closed": false,
+          "points": [
+            {
+              "x": -7,
+              "y": -6
+            },
+            {
+              "x": -9,
+              "y": 0
+            }
+          ]
+        },
+        {
+          "name": "s6",
+          "intensity": 127,
+          "closed": false,
+          "points": [
+            {
+              "x": -9,
+              "y": 0
+            },
+            {
+              "x": -7,
+              "y": 6
+            }
+          ]
+        },
+        {
+          "name": "s7",
+          "intensity": 127,
+          "closed": false,
+          "points": [
+            {
+              "x": -7,
+              "y": 6
+            },
+            {
+              "x": 0,
+              "y": 9
+            }
+          ]
+        },
+        {
+          "name": "s8",
+          "intensity": 127,
+          "closed": false,
+          "points": [
+            {
+              "x": -7,
+              "y": 6
+            },
+            {
+              "x": 7,
+              "y": 6
+            }
+          ]
+        },
+        {
+          "name": "s9",
+          "intensity": 127,
+          "closed": false,
+          "points": [
+            {
+              "x": -8,
+              "y": 5
+            },
+            {
+              "x": -2,
+              "y": -1
+            }
+          ]
+        },
+        {
+          "name": "s10",
+          "intensity": 127,
+          "closed": false,
+          "points": [
+            {
+              "x": -8,
+              "y": -1
+            },
+            {
+              "x": -2,
+              "y": 5
+            }
+          ]
+        },
+        {
+          "name": "s11",
+          "intensity": 127,
+          "closed": false,
+          "points": [
+            {
+              "x": 2,
+              "y": 5
+            },
+            {
+              "x": 8,
+              "y": -1
+            }
+          ]
+        },
+        {
+          "name": "s12",
+          "intensity": 127,
+          "closed": false,
+          "points": [
+            {
+              "x": 2,
+              "y": -1
+            },
+            {
+              "x": 8,
+              "y": 5
+            }
+          ]
+        },
+        {
+          "name": "s13",
+          "intensity": 127,
+          "closed": false,
+          "points": [
+            {
+              "x": -5,
+              "y": -7
+            },
+            {
+              "x": -2,
+              "y": -5
+            }
+          ]
+        },
+        {
+          "name": "s14",
+          "intensity": 127,
+          "closed": false,
+          "points": [
+            {
+              "x": -2,
+              "y": -5
+            },
+            {
+              "x": 2,
+              "y": -5
+            }
+          ]
+        },
+        {
+          "name": "s15",
+          "intensity": 127,
+          "closed": false,
+          "points": [
+            {
+              "x": 2,
+              "y": -5
+            },
+            {
+              "x": 5,
+              "y": -7
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

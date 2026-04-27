@@ -1,0 +1,46 @@
+{
+  "version": "1.0",
+  "name": "unknown_pickup",
+  "canvas": {
+    "width": 254,
+    "height": 254
+  },
+  "layers": [
+    {
+      "name": "layer0",
+      "visible": true,
+      "paths": [
+        {
+          "name": "s0",
+          "intensity": 127,
+          "closed": false,
+          "points": [
+            {
+              "x": -63,
+              "y": 0
+            },
+            {
+              "x": 63,
+              "y": 0
+            }
+          ]
+        },
+        {
+          "name": "s1",
+          "intensity": 127,
+          "closed": false,
+          "points": [
+            {
+              "x": 0,
+              "y": -63
+            },
+            {
+              "x": 0,
+              "y": 63
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

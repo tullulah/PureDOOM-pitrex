@@ -1,0 +1,53 @@
+{
+  "version": "1.0",
+  "name": "decoration_pillar",
+  "canvas": {
+    "width": 256,
+    "height": 256,
+    "origin": "center"
+  },
+  "layers": [
+    {
+      "name": "layer0",
+      "visible": true,
+      "paths": [
+        {
+          "name": "left",
+          "intensity": 127,
+          "closed": false,
+          "points": [{"x": -15, "y": -58}, {"x": -15, "y": 58}]
+        },
+        {
+          "name": "right",
+          "intensity": 127,
+          "closed": false,
+          "points": [{"x": 15, "y": -58}, {"x": 15, "y": 58}]
+        },
+        {
+          "name": "top_cap",
+          "intensity": 127,
+          "closed": false,
+          "points": [{"x": -15, "y": 58}, {"x": 15, "y": 58}]
+        },
+        {
+          "name": "base",
+          "intensity": 127,
+          "closed": false,
+          "points": [{"x": -15, "y": -58}, {"x": 15, "y": -58}]
+        },
+        {
+          "name": "band_upper",
+          "intensity": 127,
+          "closed": false,
+          "points": [{"x": -15, "y": 20}, {"x": 15, "y": 20}]
+        },
+        {
+          "name": "band_lower",
+          "intensity": 127,
+          "closed": false,
+          "points": [{"x": -15, "y": -20}, {"x": 15, "y": -20}]
+        }
+      ]
+    }
+  ]
+}

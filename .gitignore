@@ -1,0 +1,10 @@
+build_pitrex/
+doom_sdl
+doom_sdl.dSYM/
+*.img
+*.o
+*.elf
+.DS_Store
+tools/serial_logs/
+puredoom/test_framebuffer.raw
+puredoom/doom_original/

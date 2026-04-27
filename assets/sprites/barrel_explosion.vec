@@ -1,0 +1,89 @@
+{
+  "version": "1.0",
+  "name": "barrel_explosion",
+  "canvas": {
+    "width": 256,
+    "height": 256,
+    "origin": "center"
+  },
+  "layers": [
+    {
+      "name": "layer0",
+      "visible": true,
+      "paths": [
+        {
+          "name": "frag_up",
+          "intensity": 127,
+          "closed": false,
+          "points": [{"x": 0, "y": 10}, {"x": 0, "y": 55}]
+        },
+        {
+          "name": "frag_ur",
+          "intensity": 127,
+          "closed": false,
+          "points": [{"x": 8, "y": 8}, {"x": 42, "y": 42}]
+        },
+        {
+          "name": "frag_right",
+          "intensity": 127,
+          "closed": false,
+          "points": [{"x": 10, "y": 0}, {"x": 55, "y": 0}]
+        },
+        {
+          "name": "frag_dr",
+          "intensity": 127,
+          "closed": false,
+          "points": [{"x": 8, "y": -8}, {"x": 38, "y": -38}]
+        },
+        {
+          "name": "frag_down",
+          "intensity": 127,
+          "closed": false,
+          "points": [{"x": 0, "y": -10}, {"x": 0, "y": -50}]
+        },
+        {
+          "name": "frag_dl",
+          "intensity": 127,
+          "closed": false,
+          "points": [{"x": -8, "y": -8}, {"x": -38, "y": -38}]
+        },
+        {
+          "name": "frag_left",
+          "intensity": 127,
+          "closed": false,
+          "points": [{"x": -10, "y": 0}, {"x": -55, "y": 0}]
+        },
+        {
+          "name": "frag_ul",
+          "intensity": 127,
+          "closed": false,
+          "points": [{"x": -8, "y": 8}, {"x": -42, "y": 42}]
+        },
+        {
+          "name": "core_h",
+          "intensity": 127,
+          "closed": false,
+          "points": [{"x": -8, "y": 0}, {"x": 8, "y": 0}]
+        },
+        {
+          "name": "core_v",
+          "intensity": 127,
+          "closed": false,
+          "points": [{"x": 0, "y": -8}, {"x": 0, "y": 8}]
+        },
+        {
+          "name": "ring1",
+          "intensity": 127,
+          "closed": false,
+          "points": [{"x": -20, "y": 20}, {"x": 20, "y": 20}]
+        },
+        {
+          "name": "ring2",
+          "intensity": 127,
+          "closed": false,
+          "points": [{"x": -20, "y": -20}, {"x": 20, "y": -20}]
+        }
+      ]
+    }
+  ]
+}

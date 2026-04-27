@@ -1,0 +1,285 @@
+{
+  "version": "1.0",
+  "name": "shotgun_side",
+  "canvas": {
+    "width": 256,
+    "height": 256,
+    "origin": "center"
+  },
+  "layers": [
+    {
+      "name": "barrel",
+      "visible": true,
+      "paths": [
+        {
+          "name": "barrel",
+          "intensity": 127,
+          "closed": true,
+          "points": [
+            {
+              "x": -80,
+              "y": -70
+            },
+            {
+              "x": 10,
+              "y": -70
+            },
+            {
+              "x": 10,
+              "y": -78
+            },
+            {
+              "x": -80,
+              "y": -78
+            }
+          ]
+        },
+        {
+          "name": "front_sight",
+          "intensity": 127,
+          "closed": false,
+          "points": [
+            {
+              "x": -80,
+              "y": -78
+            },
+            {
+              "x": -80,
+              "y": -83
+            }
+          ]
+        },
+        {
+          "name": "mag_tube",
+          "intensity": 80,
+          "closed": true,
+          "points": [
+            {
+              "x": -78,
+              "y": -78
+            },
+            {
+              "x": 5,
+              "y": -78
+            },
+            {
+              "x": 5,
+              "y": -84
+            },
+            {
+              "x": -78,
+              "y": -84
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "pump",
+      "visible": true,
+      "paths": [
+        {
+          "name": "pump_handle",
+          "intensity": 127,
+          "closed": true,
+          "points": [
+            {
+              "x": -30,
+              "y": -84
+            },
+            {
+              "x": 10,
+              "y": -84
+            },
+            {
+              "x": 10,
+              "y": -94
+            },
+            {
+              "x": -30,
+              "y": -94
+            }
+          ]
+        },
+        {
+          "name": "pump_line",
+          "intensity": 80,
+          "closed": false,
+          "points": [
+            {
+              "x": -20,
+              "y": -84
+            },
+            {
+              "x": -20,
+              "y": -94
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "receiver",
+      "visible": true,
+      "paths": [
+        {
+          "name": "receiver_body",
+          "intensity": 127,
+          "closed": true,
+          "points": [
+            {
+              "x": 5,
+              "y": -65
+            },
+            {
+              "x": 55,
+              "y": -65
+            },
+            {
+              "x": 55,
+              "y": -94
+            },
+            {
+              "x": 5,
+              "y": -94
+            }
+          ]
+        },
+        {
+          "name": "ejection_port",
+          "intensity": 100,
+          "closed": true,
+          "points": [
+            {
+              "x": 8,
+              "y": -66
+            },
+            {
+              "x": 40,
+              "y": -66
+            },
+            {
+              "x": 40,
+              "y": -78
+            },
+            {
+              "x": 8,
+              "y": -78
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "stock",
+      "visible": true,
+      "paths": [
+        {
+          "name": "stock_body",
+          "intensity": 127,
+          "closed": true,
+          "points": [
+            {
+              "x": 50,
+              "y": -70
+            },
+            {
+              "x": 75,
+              "y": -70
+            },
+            {
+              "x": 80,
+              "y": -100
+            },
+            {
+              "x": 55,
+              "y": -100
+            }
+          ]
+        },
+        {
+          "name": "stock_line",
+          "intensity": 80,
+          "closed": false,
+          "points": [
+            {
+              "x": 55,
+              "y": -75
+            },
+            {
+              "x": 78,
+              "y": -75
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "grip",
+      "visible": true,
+      "paths": [
+        {
+          "name": "trigger_guard",
+          "intensity": 127,
+          "closed": false,
+          "points": [
+            {
+              "x": 20,
+              "y": -94
+            },
+            {
+              "x": 20,
+              "y": -108
+            },
+            {
+              "x": 48,
+              "y": -108
+            },
+            {
+              "x": 48,
+              "y": -94
+            }
+          ]
+        },
+        {
+          "name": "grip_outline",
+          "intensity": 127,
+          "closed": true,
+          "points": [
+            {
+              "x": 30,
+              "y": -94
+            },
+            {
+              "x": 55,
+              "y": -94
+            },
+            {
+              "x": 58,
+              "y": -115
+            },
+            {
+              "x": 35,
+              "y": -115
+            }
+          ]
+        },
+        {
+          "name": "grip_line",
+          "intensity": 80,
+          "closed": false,
+          "points": [
+            {
+              "x": 33,
+              "y": -100
+            },
+            {
+              "x": 57,
+              "y": -100
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

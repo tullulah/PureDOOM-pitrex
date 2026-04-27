@@ -1,0 +1,122 @@
+{
+  "version": "1.0",
+  "name": "pickup_weapon",
+  "canvas": {
+    "width": 256,
+    "height": 256,
+    "origin": "center"
+  },
+  "layers": [
+    {
+      "name": "layer0",
+      "visible": true,
+      "paths": [
+        {
+          "name": "s0",
+          "intensity": 127,
+          "closed": false,
+          "points": [
+            {
+              "x": -55,
+              "y": 10
+            },
+            {
+              "x": 30,
+              "y": 10
+            }
+          ]
+        },
+        {
+          "name": "s1",
+          "intensity": 127,
+          "closed": false,
+          "points": [
+            {
+              "x": 30,
+              "y": 10
+            },
+            {
+              "x": 30,
+              "y": -10
+            }
+          ]
+        },
+        {
+          "name": "s2",
+          "intensity": 127,
+          "closed": false,
+          "points": [
+            {
+              "x": -10,
+              "y": 10
+            },
+            {
+              "x": -10,
+              "y": -42
+            }
+          ]
+        },
+        {
+          "name": "s3",
+          "intensity": 127,
+          "closed": false,
+          "points": [
+            {
+              "x": -55,
+              "y": 10
+            },
+            {
+              "x": -55,
+              "y": -22
+            }
+          ]
+        },
+        {
+          "name": "s4",
+          "intensity": 127,
+          "closed": false,
+          "points": [
+            {
+              "x": -55,
+              "y": -22
+            },
+            {
+              "x": -10,
+              "y": -42
+            }
+          ]
+        },
+        {
+          "name": "s5",
+          "intensity": 127,
+          "closed": false,
+          "points": [
+            {
+              "x": -10,
+              "y": -12
+            },
+            {
+              "x": 6,
+              "y": -36
+            }
+          ]
+        },
+        {
+          "name": "s6",
+          "intensity": 127,
+          "closed": false,
+          "points": [
+            {
+              "x": 6,
+              "y": -36
+            },
+            {
+              "x": -6,
+              "y": -42
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

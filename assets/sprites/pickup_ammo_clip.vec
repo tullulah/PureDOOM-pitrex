@@ -1,0 +1,92 @@
+{
+  "version": "1.0",
+  "name": "pickup_ammo_clip",
+  "canvas": {
+    "width": 256,
+    "height": 256,
+    "origin": "center"
+  },
+  "layers": [
+    {
+      "name": "layer0",
+      "visible": true,
+      "paths": [
+        {
+          "name": "s0",
+          "intensity": 127,
+          "closed": false,
+          "points": [
+            {
+              "x": -42,
+              "y": 26
+            },
+            {
+              "x": 42,
+              "y": 26
+            }
+          ]
+        },
+        {
+          "name": "s1",
+          "intensity": 127,
+          "closed": false,
+          "points": [
+            {
+              "x": 42,
+              "y": 26
+            },
+            {
+              "x": 42,
+              "y": -26
+            }
+          ]
+        },
+        {
+          "name": "s2",
+          "intensity": 127,
+          "closed": false,
+          "points": [
+            {
+              "x": 42,
+              "y": -26
+            },
+            {
+              "x": -42,
+              "y": -26
+            }
+          ]
+        },
+        {
+          "name": "s3",
+          "intensity": 127,
+          "closed": false,
+          "points": [
+            {
+              "x": -42,
+              "y": -26
+            },
+            {
+              "x": -42,
+              "y": 26
+            }
+          ]
+        },
+        {
+          "name": "s4",
+          "intensity": 127,
+          "closed": false,
+          "points": [
+            {
+              "x": 14,
+              "y": 26
+            },
+            {
+              "x": 14,
+              "y": -26
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

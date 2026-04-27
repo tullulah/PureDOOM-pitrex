@@ -1,0 +1,197 @@
+{
+  "version": "1.0",
+  "name": "enemy_humanoid",
+  "canvas": {
+    "width": 256,
+    "height": 256,
+    "origin": "center"
+  },
+  "layers": [
+    {
+      "name": "layer0",
+      "visible": true,
+      "paths": [
+        {
+          "name": "s0",
+          "intensity": 127,
+          "closed": false,
+          "points": [
+            {
+              "x": 0,
+              "y": 55
+            },
+            {
+              "x": 10,
+              "y": 45
+            }
+          ]
+        },
+        {
+          "name": "s1",
+          "intensity": 127,
+          "closed": false,
+          "points": [
+            {
+              "x": 10,
+              "y": 45
+            },
+            {
+              "x": 0,
+              "y": 35
+            }
+          ]
+        },
+        {
+          "name": "s2",
+          "intensity": 127,
+          "closed": false,
+          "points": [
+            {
+              "x": 0,
+              "y": 35
+            },
+            {
+              "x": -10,
+              "y": 45
+            }
+          ]
+        },
+        {
+          "name": "s3",
+          "intensity": 127,
+          "closed": false,
+          "points": [
+            {
+              "x": -10,
+              "y": 45
+            },
+            {
+              "x": 0,
+              "y": 55
+            }
+          ]
+        },
+        {
+          "name": "s4",
+          "intensity": 127,
+          "closed": false,
+          "points": [
+            {
+              "x": 0,
+              "y": 35
+            },
+            {
+              "x": 0,
+              "y": 10
+            }
+          ]
+        },
+        {
+          "name": "s5",
+          "intensity": 127,
+          "closed": false,
+          "points": [
+            {
+              "x": -18,
+              "y": 22
+            },
+            {
+              "x": 18,
+              "y": 22
+            }
+          ]
+        },
+        {
+          "name": "s6",
+          "intensity": 127,
+          "closed": false,
+          "points": [
+            {
+              "x": -18,
+              "y": 22
+            },
+            {
+              "x": -20,
+              "y": 5
+            }
+          ]
+        },
+        {
+          "name": "s7",
+          "intensity": 127,
+          "closed": false,
+          "points": [
+            {
+              "x": 18,
+              "y": 22
+            },
+            {
+              "x": 20,
+              "y": 5
+            }
+          ]
+        },
+        {
+          "name": "s8",
+          "intensity": 127,
+          "closed": false,
+          "points": [
+            {
+              "x": 0,
+              "y": 10
+            },
+            {
+              "x": -12,
+              "y": -25
+            }
+          ]
+        },
+        {
+          "name": "s9",
+          "intensity": 127,
+          "closed": false,
+          "points": [
+            {
+              "x": 0,
+              "y": 10
+            },
+            {
+              "x": 12,
+              "y": -25
+            }
+          ]
+        },
+        {
+          "name": "s10",
+          "intensity": 127,
+          "closed": false,
+          "points": [
+            {
+              "x": -12,
+              "y": -25
+            },
+            {
+              "x": -18,
+              "y": -25
+            }
+          ]
+        },
+        {
+          "name": "s11",
+          "intensity": 127,
+          "closed": false,
+          "points": [
+            {
+              "x": 12,
+              "y": -25
+            },
+            {
+              "x": 18,
+              "y": -25
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

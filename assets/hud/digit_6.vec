@@ -1,0 +1,106 @@
+{
+  "version": "1.0",
+  "name": "digit_6",
+  "canvas": {
+    "width": 254,
+    "height": 254
+  },
+  "layers": [
+    {
+      "name": "layer0",
+      "visible": true,
+      "paths": [
+        {
+          "name": "s0",
+          "intensity": 127,
+          "closed": false,
+          "points": [
+            {
+              "x": -4,
+              "y": 7
+            },
+            {
+              "x": 4,
+              "y": 7
+            }
+          ]
+        },
+        {
+          "name": "s1",
+          "intensity": 127,
+          "closed": false,
+          "points": [
+            {
+              "x": 4,
+              "y": -6
+            },
+            {
+              "x": 4,
+              "y": 0
+            }
+          ]
+        },
+        {
+          "name": "s2",
+          "intensity": 127,
+          "closed": false,
+          "points": [
+            {
+              "x": -4,
+              "y": -6
+            },
+            {
+              "x": 4,
+              "y": -6
+            }
+          ]
+        },
+        {
+          "name": "s3",
+          "intensity": 127,
+          "closed": false,
+          "points": [
+            {
+              "x": -4,
+              "y": -6
+            },
+            {
+              "x": -4,
+              "y": 0
+            }
+          ]
+        },
+        {
+          "name": "s4",
+          "intensity": 127,
+          "closed": false,
+          "points": [
+            {
+              "x": -4,
+              "y": 0
+            },
+            {
+              "x": -4,
+              "y": 7
+            }
+          ]
+        },
+        {
+          "name": "s5",
+          "intensity": 127,
+          "closed": false,
+          "points": [
+            {
+              "x": -4,
+              "y": 0
+            },
+            {
+              "x": 4,
+              "y": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
